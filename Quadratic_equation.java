@@ -6,13 +6,13 @@ public class Quadratic_equation {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); //creating scanner class
+		//a,b.c are real numbers and a can't be equal to 0
 		System.out.println("Enter the value of a:");
 		double a=sc.nextInt();
 		System.out.println("Enter the value of b:");
 		double b=sc.nextInt();
 		System.out.println("Enter the value of c:");
 		double c=sc.nextInt();
-		// 
 	    double result =( b * b) -( 4.0 * a * c);
          if (result > 0.0)// when result is positive, both roots are real and different
         	 {
